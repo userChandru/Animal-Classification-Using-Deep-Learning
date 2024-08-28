@@ -1,0 +1,40 @@
+project-root/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── raw/
+│   │   │   └── classified/
+│   │   ├── styles/
+│   │
+│   ├── components/
+│   │   ├── ImageUpload.js
+│   │   ├── ResultDisplay.js
+│   │   └── Navbar.js
+│   │
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   ├── AboutPage.js
+│   │   ├── HistoryPage.js
+│   │   └── NotFound.js
+│   │
+│   ├── services/
+│   │   ├── api.js
+│   │   └── model.js
+│   │
+│   ├── data/
+│   │   ├── species_db.db
+│   │   └── sqlite.exe
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── model_building.py
+│
+├── .gitignore
+├── package.json
+└── README.md
